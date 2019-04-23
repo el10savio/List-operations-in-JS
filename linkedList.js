@@ -159,13 +159,13 @@ function linkedList() {
         var newNode = new Node(givenElement);
 
         // Check if given index is in bounds of the linked list
-        if (0 <= index && index <= this.getLength()) {}
+        if (0 <= index && index <= this.getLength()) {
+            // TODO
+        }
         // Given index is out of bounds of the linked list
         else {
             return "Index is out of bounds";
         }
-
-
     }
 
     // Remove a certain element from the linked list
@@ -248,36 +248,3 @@ testList.addNode(15);
 
 testList.display();
 console.log("----------------")
-
-// testList.addNodeToStart(25);
-// testList.display();
-// console.log("----------------")
-// testList.addNodeSpecific(27, 2);
-// testList.display();
-// console.log("----------------")
-
-// testList.display();
-// console.log("----------------")
-// testList.removeFirstNode();
-// testList.display();
-// console.log("----------------")
-// testList.removeNode(15);
-// testList.display();
-// console.log("----------------")
-// testList.removeLastNode();
-// testList.display();
-// console.log("----------------")
-
-// console.log(testList.exists(5));
-// console.log("----------------")
-// console.log(testList.exists(15));
-// console.log("----------------")
-// console.log(testList.exists(-10));
-// console.log("----------------")
-
-// console.log(testList.indexOf(5));
-// console.log("----------------")
-// console.log(testList.indexOf(15));
-// console.log("----------------")
-// console.log(testList.indexOf(-10));
-// console.log("----------------")
